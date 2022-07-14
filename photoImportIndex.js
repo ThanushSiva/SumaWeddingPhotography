@@ -9,8 +9,6 @@ const dataString = xmlHttp.responseText;
 
 const datas = JSON.parse(dataString);
 
-console.log(num);
-
 const container = document.querySelector(".portfolio-filter")
 
 let Fashion = 0, Natural = 0, Wedding = 0, Lifestyle = 0;
