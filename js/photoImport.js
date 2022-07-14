@@ -10,7 +10,7 @@ const datas = JSON.parse(dataString);
 
 const container = document.querySelector(".portfolio-filter")
 
-let classString, i, finalOut;
+let classString, i, finalOut="";
 
 function trial() {
     for (let i = 0; i < num; i++) {

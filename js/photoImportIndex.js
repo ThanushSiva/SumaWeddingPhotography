@@ -12,14 +12,12 @@ const datas = JSON.parse(dataString);
 const container = document.querySelector(".portfolio-filter")
 
 let Fashion = 0, Natural = 0, Wedding = 0, Lifestyle = 0;
-let classString, i, finalOut;
+let classString, i, finalOut="";
 
 const weddingSpan = document.querySelector(".weddingSpan");
 const fashionSpan = document.querySelector(".fashionSpan");
 const naturalSpan = document.querySelector(".naturalSpan");
 const lifestyleSpan = document.querySelector(".lifestyleSpan");
-
-console.log(datas);
 
 for (let i = 0; i < num; i++) {
     switch (datas[i]) {
