@@ -89,7 +89,7 @@
         navText: ['<span class="arrow_carrot-left"></span>', '<span class="arrow_carrot-right"></span>'],
         smartSpeed: 1200,
         autoHeight: false,
-        autoplay: true
+        autoplay: false
     });
 
     /*------------------
@@ -105,7 +105,7 @@
         stagePadding: 120,
         smartSpeed: 1200,
         autoHeight: false,
-        autoplay: true,
+        autoplay: false,
         responsive: {
             0: {
                 items: 1,
